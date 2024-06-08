@@ -8,12 +8,57 @@
     height: 800px;
     overflow: hidden;
 }
-.bck video {
-    position: absolute;
+  
+  video {
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
-    z-index: -1;
-}
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    background-color: darkblue ;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .gambar {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .join {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .judul {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .teks {
+    color: aliceblue;
+    margin: 0;
+    font-size: 20px;
+    margin-top: 7px;
+  }
+  
+
+  
+  
+  
